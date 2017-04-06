@@ -23,7 +23,7 @@
 
 ## Run time analysis
 
-The program has been run in O(n) time complexity i.e. as the input is multiplied by a factor of 10, the run time is also multiplied by a factor of 10
+The program has been run in O(n) time complexity i.e. for example as the input is multiplied by a factor of 10, the run time is also multiplied by a factor of 10
 
 ![Feature 4 illustration](images/runtime.png)
 
