@@ -244,7 +244,6 @@ def find_blocked_requests():
 
 
 if __name__ == "__main__":
-	starting_time = timeit.default_timer()
 	log_start_time = find_starting_log_time()
 	timer = log_start_time
 	with open(sys.argv[1]) as file:
@@ -260,4 +259,3 @@ if __name__ == "__main__":
 	find_most_bandwidth_resources()
 	find_busiest_windows()
 	find_blocked_requests()
-	end_time = timeit.default_timer()
