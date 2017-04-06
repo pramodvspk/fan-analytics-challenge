@@ -1,5 +1,14 @@
-from collections import defaultdict, Counter, namedtuple, OrderedDict
-import timeit, re, datetime, heapq,sys
+import timeit
+import re
+import datetime
+import heapq
+import sys
+from collections import defaultdict
+from collections import Counter
+from collections import defaultdict
+from collections import namedtuple
+from collections import defaultdict
+from collections import OrderedDict
 
 APACHE_ACCESS_LOG_PATTERN = '^(\S+) (\S+) (\S+) \[([\w:/]+\s[+\-]\d{4})\] "(\S+) (\S+)\s*(\S*)" (\d{3}) (\S+)'
 
